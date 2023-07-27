@@ -13,6 +13,7 @@ module.exports = {
     },
     screens: {
       'tab': '880px',
+      'int': '765px',
       'tel': '450px',
       'lg': '1300px'
     },

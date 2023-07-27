@@ -12,7 +12,7 @@ export default function Switcher(){
     };
     return(
                   <>
-                  <div className="items-center fixed top-3 right-60 tel:block hidden z-[200] tab:top-3 lg:right-8">
+                  <div className="items-center fixed int:top-3 int:right-60 hidden z-[200] int:block tab:top-3 lg:right-8">
                   <DarkModeSwitch
                       checked={darkside}
                       onChange={toggleDarkMode}

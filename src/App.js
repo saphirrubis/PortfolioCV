@@ -11,7 +11,9 @@ import Switcher from './components/dark/Switcher';
 
 function App() {
   useEffect(()=>{
-    Aos.init();
+    Aos.init({
+      disable: window.innerWidth < 880
+    });
   },[]);
   return <>
     <div className='"min-h-sreen relative items-center transition duration-200 bg-primLight dark:bg-primDark'>
